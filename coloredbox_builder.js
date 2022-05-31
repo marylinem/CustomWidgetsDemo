@@ -49,5 +49,5 @@
 		}
 	}
 
-	customElements.define("com-sap-sample-coloredbox-builder", ColoredBoxBuilderPanel);
+	customElements.define("com-sap-sample-coloredbox-builder", ColoredBoxBuilderPanel); //define a new HTML element and its tag, bind the class name 
 })();

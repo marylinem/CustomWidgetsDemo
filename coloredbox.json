@@ -4,7 +4,7 @@
 	"name": "Colored Box",
 	"description": "A colored box",
 	"newInstancePrefix": "ColoredBox",
-	"icon": "http://127.0.0.1:8125/icon.png",
+	"icon": "https://marylinem.github.io/CustomWidgetsDemo/icon.png",
 	"vendor": "SAP",
 	"eula": "",
 	"license": "",

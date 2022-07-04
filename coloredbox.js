@@ -1,6 +1,9 @@
 (function() { 
 	let template = document.createElement("template");
 	template.innerHTML = `
+	<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+	<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+	<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 		<style>
 		:host {
 			border-radius: 25px;

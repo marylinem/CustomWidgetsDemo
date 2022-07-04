@@ -1,18 +1,21 @@
 (function() { 
 	let template = document.createElement("template");
 	template.innerHTML = `
-	<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-	<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
-	<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-		<style>
-		:host {
-			border-radius: 25px;
-			border-width: 4px;
-			border-color: black;
-			border-style: solid;
-			display: block;
-		} 
-		</style> 
+		<div>
+			<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+			<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+			<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+			<h1>Hello World</h1>
+				<style>
+				:host {
+					border-radius: 25px;
+					border-width: 4px;
+					border-color: black;
+					border-style: solid;
+					display: block;
+				} 
+				</style> 
+		</div>
 	`;
 
 	class ColoredBox extends HTMLElement {
